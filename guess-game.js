@@ -57,7 +57,7 @@ function makeGuess() {
     resultEl.textContent = value + " is too low";
   }
 
-  guessInput.value = 0;
+  guessInput.value = "";
   if (playing) {
     guessInput.focus();
   }
